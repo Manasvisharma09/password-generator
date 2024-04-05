@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Random Password Generator </title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="script" href="index.js">
-
-        
-    </head>
-    <body>
-        <div class="container">
-            <h1>Generate a <br><span>Random Password</span></h1>
-            <div class="display">
-                <input type="text" id="password" placeholder="Password">
-                <img src ="copy.png" onclick="copyPassword()">
-
-            </div>
-            <button onclick="createPassword()"><img src="generate.png">Generate Password</button>
-        </div>
-        <!-- <script>
-            const passwordBox=document.getElementById("password");
+const passwordBox=document.getElementById("password");
             const length=12;
             const upperCase="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             const lowerCase="abcdefghijklmnopqrstuvwxyz";
@@ -42,7 +21,3 @@
                 passwordBox.select();
                 document.execCommand("copy");
             }
-
-        </script> -->
-    </body>
-</html>
